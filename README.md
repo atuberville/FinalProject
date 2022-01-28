@@ -8,7 +8,7 @@ I merged team_df and play_df into complete_stats_df by the "Team Code" columns. 
 
 I merged complete_stats_df with confernce_df by the "Conference Code" columns, dropped some duplicate columns and made a fairly solid initial dataframe.
 
-Seems to work well with Brian's function.
+With minor dataframe name changes, it seems to work nicely with Brian's function.
 
 I know this is as basic as it gets. I am more than open to any suggestions. 
 
