@@ -1,10 +1,15 @@
 # Predicting College Football Outcome (Win/Lose) Based on First-Half Statistics
 
 ## Goals
+
 •	Can a game be predicted win/lose based on first-half stats, and to what level of accuracy?
+
 •	How close does predicted meet actual results?
+
 •	What values contribute most heavily to the predicted outcome?
+
 •	What other values may contribute to win/lose?
+
 •	Is the model used in machine learning the best model for this exercise?
 
 ## Data Selection
@@ -23,7 +28,9 @@ Our machine learning model was based on a logistic regression. We started with r
 Tuesday/Thursday are our status meetings where we will answer 
 
 •	What have we done since we last met
+
 •	What are we going to accomplish by the time we meet again 
+
 •	We will communicate via Slack for times in between
 
 ### Conflict Management
