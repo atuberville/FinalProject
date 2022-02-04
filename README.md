@@ -21,9 +21,11 @@ Our machine learning model was based on a logistic regression. We started with r
  
 ### Primary Communication Methods
 Tuesday/Thursday are our status meetings where we will answer 
+
 •	What have we done since we last met
 •	What are we going to accomplish by the time we meet again 
 •	We will communicate via Slack for times in between
+
 ### Conflict Management
 Owner of the task listed above will ultimately decide how to proceed. As a team we will try to negotiate a solution that works for all parties if there is a project conflict. If there is interpersonal conflict it is recommended that the persons with issues take some time offline to try to resolve specific items in question
 
