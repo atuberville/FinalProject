@@ -23,7 +23,8 @@ Our machine learning model was based on a logistic regression. We started with r
 
 
 ### Week one task owners
- 
+ ![image](https://user-images.githubusercontent.com/89363928/152465855-052d485b-cd72-4e63-8e38-79516f940003.png)
+
 ### Primary Communication Methods
 Tuesday/Thursday are our status meetings where we will answer 
 
