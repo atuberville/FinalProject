@@ -16,7 +16,7 @@
 We chose this dataset because the entire team was interested and could relate to college football statistics. Our dataset came from Kaggle (https://www.kaggle.com/mhixon/college-football-statistics) datasets for use included game statistics from 2005-2013, details on stadiums and conferences. In addition, there is an expansive capability to bring in additional data that may contribute to outcome and subsequent visual representation and interaction to a user interested in predicting game outcomes at the half.
 
 ## Database Building and Cleaning
-The database for the project was built in Postgres and the multiple .csv files were joined to create the ‘Gold’ database for the machine learning and visualizations to run from. We also decided we were only going to use the data from 2008-2013 so the database wouldn’t be too large and so the data was more relevant to the current years games. 
+Databases for the project were built in Postgres and SQLite with multiple Kaggle .csv files joined to create the ‘Gold’ database for machine learning and visualization integration. We also decided we were only going to use the data from 2008-2013 as the timeframe provided enough records for baseline prediction (>3k) and would keep the data relevant to current games without burdening the database. 
 
 ## Machine Learning
 Our machine learning model was based on a logistic regression. We started with removing games that we considered ‘blow outs’ any games that had teams that were leading by greater than 14 points at the half. Presently we are using a trial-and-error method to determine which features are the most relevant for predicting. 
