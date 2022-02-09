@@ -15,7 +15,7 @@ from sqlalchemy.orm import sessionmaker
 
 #class initial_model_input(Base):
     #Tell SQLAlchemy what the table name is and if there's any table-specific arguments it should know about
-   # __tablename__ = 'initial_model_input'
+    #__tablename__ = 'initial_model_input'
     #__table_args__ = {'sqlite_autoincrement': True}
     #tell SQLAlchemy the name of column and its attributes:
     #id = Column(Integer, primary_key=True, nullable=False) 
@@ -23,41 +23,46 @@ from sqlalchemy.orm import sessionmaker
     #b_points = Column(NUMERIC)
     #a_offense_rush_yards = Column(NUMERIC)
     #b_offense_rush_yards = Column(NUMERIC) 
+    #a_offense_pass_yards = Column(NUMERIC)
+    #b_offense_pass_yards = Column(NUMERIC)
+    #a_incomplete_pass = Column (NUMERIC)
+    #b_incomplete_pass = Column (NUMERIC)
     #a_penalty_yards = Column(NUMERIC)
     #b_penalty_yards = Column(NUMERIC)
-    #surfaceint = Column(NUMERIC)
     #b_home = Column(NUMERIC)
-
     
 #if __name__ == "__main__":
     #t = time()
 
-    #Create the database
+   # Create the database
 engine = create_engine('sqlite:///initial_model_input.sqlite')
-    #Base.metadata.create_all(engine)
+#Base.metadata.create_all(engine)
 
     #Create the session
-    #session = sessionmaker()
-    #session.configure(bind=engine)
-    #s = session()
+#session = sessionmaker()
+#session.configure(bind=engine)
+#s = session()
 
     
-    #file_name = "goldcopyhalfstats.csv"
-    #data = Load_Data("goldcopyhalfstats.csv") 
+#file_name = "goldcopyhalfstats.csv"
+#data = Load_Data("goldcopyhalfstats.csv") 
 
 #for i in data:
-            #record = initial_model_input(**{
+    #record = initial_model_input(**{
                 #'a_points' : i[6],
                 #'b_points' : i[11],
                 #'a_offense_rush_yards': i[15],
                 #'b_offense_rush_yards' : i[18],
+                #'a_offense_pass_yards' : i[19],
+                #'b_offense_pass_yards' : i[22],
+                #'a_incomplete_pass' : i[25],
+                #'b_incomplete_pass' : i[26],
                 #'a_penalty_yards' : i[29],
                 #'b_penalty_yards' : i[30],
-                #'surfaceint' : i[43],
                 #'b_home' : i[34]
-           # })
-           # s.add(record) #Add all the records
-           # s.commit() #Attempt to commit all the records
+            #})
+    #s.add(record) #Add all the records
+    #s.commit() #Attempt to commit all the records
 
 #engine.execute(
     #'''
