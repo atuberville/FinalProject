@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+ 
+</head>
+
+<body>
+
+    <div class='login'>
+        <h1>Which Team Will Win?</h1>
+            <h3>Pick Your Team</h3>
+
+        <!-- Main input for receiving query to ML -->
+        <form action="{{url_for('predict')}}"method="post">
+            <input type="text" name="team_a" placeholder="Team A" required="required" >
+            <input type="text" name="team_b" placeholder="Team B" required="required" >
+    
+            <button type="subimt" class="btn">Winner</button>
+        </form>
+
+        <br>
+        <br>
+        {{prediction_text}}
+    </div>
+</body>
+</html>
