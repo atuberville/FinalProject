@@ -39,3 +39,6 @@ Lauren: data modification for dash app and flask apps
 Ben: complete flask application
 Ambrea: complete dashboard appication and being deploying to heroku
 
+### Google Slides
+https://docs.google.com/presentation/d/17MsOsjI0Ukt9Tt1H7SNCW1TySk2Vdx8QivNd-x8_eVk/edit#slide=id.gcb9a0b074_1_140
+
