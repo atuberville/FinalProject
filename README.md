@@ -19,7 +19,13 @@ We started exploring the databases availiable on collegefootballreference.com, b
 Databases for the project were built in Postgres and SQLite with multiple Kaggle .csv files joined to create the ‘Gold’ database for machine learning and visualization integration. We also decided we were only going to use the data from 2008-2013 as the timeframe provided enough records for baseline prediction (>3k) and would keep the data relevant to current games without burdening the database. 
 
 ## Machine Learning
-Our machine learning model was based on a logistic regression that was created via python. We started with removing games that we considered ‘blow outs’ any games that had teams that were leading by greater than 14 points at the half. Logistic regression is the choosen method for analysis, with the ultimate goal being to integrate this model into a fully functioning flask app that will be used to predict future games. We tested the sensitivity of the model by removing features in sequence to determine the best options. Our overall predicitibility percentage was 74% accuracy. 
+We started with removing games that we considered ‘blow outs’ any games that had teams that were leading by greater than 14 points at the half. Not only are these games much easier to predict, their presence in the data may unduly influence the fit, as well as the fact that these types of games are typically between teams that are not evenly matched.
+We then removed features from the dataframe that are used for identification purposes such as game code"game_code", team names, conference names, team codes, and stadiums names, as they should have no influence in the model. <br />
+Our machine learning model was based on a logistic regression that was created via python using Google Colab. A logistic regression model was chosen for several reasons:<br />
+* it is useful for binary classification (team A or team B wins)
+* the simplicity of the fucntion enables coefficients to be outputted and studied (i.e. no "black box" model)
+* initial models produced a 74 percent accuracy<br />
+After an initial model which utlized all the available features, we tested the singular contribution of each feature by removing it and re-training the model. This allowed us to determine what features could be removed without sacrificing much acvcuracy. Our overall predicitibility percentage was 74% accuracy. 
 
 
 ## Dashboard
