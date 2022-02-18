@@ -20,7 +20,7 @@ Databases for the project were built in Postgres and SQLite with multiple Kaggle
 
 ## Machine Learning
 We started with removing games that we considered "blow outs" - any games that had teams that were leading by greater than 14 points at the half. Not only are these games much easier to predict, their presence in the data may unduly influence the fit, as well as the fact that these types of games are typically between teams that are not evenly matched.
-We then removed features from the dataframe that are used for identification purposes such as game code"game_code", team names, conference names, team codes, and stadiums names, as they should have no influence in the model. <br />
+We then removed features from the dataframe that are used for identification purposes such as game code, team names, conference names, team codes, and stadiums names, as they should have no influence in the model. <br />
 We used train_test_split from the skilearn library to split our data into training and testing groups, utilizing a training size of 25 percent of the full data set. This proportion was determined via trial-and-error to give better accuracy in predicting the testing data.<br />
 Our machine learning model was based on a logistic regression that was created via python using Google Colab. A logistic regression model was chosen for several reasons:<br />
 * it is useful for binary classification (team A or team B wins)
