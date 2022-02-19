@@ -39,7 +39,7 @@ The dashboard is presently a webpage that has an interactive model to predict fu
 
 ### Week Three Deliverables
 Brain: google slides, review other machine learning models
-Lauren: data modification for dash app and flask apps
+Lauren: data modification for dash app and flask apps, powerpoint draft
 Ben: complete flask application
 Ambrea: complete dashboard appication and being deploying to heroku
 
