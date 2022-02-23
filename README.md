@@ -40,7 +40,7 @@ https://footballdashboar.herokuapp.com/
 
 
 ### Week Three Deliverables
-Brain: google slides, review other machine learning models
+Brian: google slides, review other machine learning models
 Lauren: data modification for dash app and flask apps, powerpoint draft
 Ben: modify the heroku application and update slides for potential future items
 Ambrea: complete dashboard appication and being deploying to heroku
