@@ -36,19 +36,8 @@ After an initial model which utlized all the available features, we tested the s
 ## Dashboard
 The dashboard is presently a webpage that has an interactive model where users can select up to three teams to compare their statistics at the half. The first page gives a brief set of instructions on how to use the dashboard. Once you click the link above you can interact with your selected teams. Visualizations are laid out based on the dates of the games and you can see penalty yards, rush, and passing yards.
 
-https://footballdashboar.herokuapp.com/
+https://cfdashboard.herokuapp.com/
 
-
-### Week Three Deliverables
-Brian: google slides, review other machine learning models
-Lauren: data modification for dash app and flask apps, powerpoint draft
-Ben: modify the heroku application and update slides for potential future items
-Ambrea: complete dashboard appication and being deploying to heroku
-
-### Week Four Deliverables
-Finish powerpoint
-Clean repository
-Merge final branches if needed
 
 ### Google Slides
 https://docs.google.com/presentation/d/17MsOsjI0Ukt9Tt1H7SNCW1TySk2Vdx8QivNd-x8_eVk/edit#slide=id.gcb9a0b074_1_140
