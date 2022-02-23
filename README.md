@@ -4,7 +4,7 @@
 
 •	Can a game be predicted win/lose based on first-half stats, and to what level of accuracy?
 
-•	How close does predicted meet actual results?
+•	How well does our model predict actual results?
 
 •	What values contribute most heavily to the predicted outcome?
 
