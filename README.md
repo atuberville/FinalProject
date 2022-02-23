@@ -26,9 +26,9 @@ We used train_test_split from the skilearn library to split our data into traini
 
 Our machine learning model was based on a logistic regression that was created via python using Google Colab. A logistic regression model was chosen for several reasons:
 * it is useful for binary classification (team A or team B wins)
-* the simplicity of the fucntion enables coefficients to be outputted and studied (i.e. no "black box" model)
+* the simplicity of the model enables coefficients to be outputted and studied (i.e. no "black box" model)
 * the simplicity of the model also allows a closed-form of the prediction function to be written, which can then easily be read into other scripts (visualization) and used for plotting
-* initial models produced a 74 percent accuracy<br />
+* initial models produced a 74 percent balanced accuracy<br />
 
 After an initial model which utlized all the available features, we tested the singular contribution of each feature by removing it and re-training the model.  After dropping uneeded features, we achieved a balanced model accuracy of roughly 74 percent.<br />
 
